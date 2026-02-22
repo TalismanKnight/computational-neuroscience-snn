@@ -1,5 +1,9 @@
 # 🧠 Spiking Neural Network with STDP
 
+## Demo Output
+
+![STDP Demo](snn_demo.png)
+
 This project implements a biologically inspired spiking neural network.
 
 ## Features
@@ -20,5 +24,6 @@ STDP version:
 python snn_stdp.py
 
 ## Requirements
+
 
 pip install numpy matplotlib
