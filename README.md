@@ -27,3 +27,16 @@ python snn_stdp.py
 
 
 pip install numpy matplotlib
+
+## How It Works
+
+The model uses Leaky Integrate-and-Fire (LIF) neuron dynamics:
+
+dv/dt = (-v + I) / τ
+
+Synaptic plasticity is implemented using a trace-based Spike Timing Dependent Plasticity (STDP) rule:
+
+Δw ∝ pre_trace × post_trace
+
+The synaptic weight evolves dynamically depending on spike timing relationships between neurons.
+
